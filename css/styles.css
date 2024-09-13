@@ -1,0 +1,79 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Estilos del header */
+#header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos para la sección Acerca de Nosotros */
+#acerca-de-nosotros {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#acerca-de-nosotros h2 {
+    text-align: center;
+    color: #007bff;
+}
+
+.contenido {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.texto {
+    flex: 1;
+    padding: 20px;
+}
+
+.texto h3 {
+    color: #007bff;
+}
+
+.texto ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.texto p, .texto ul {
+    margin-bottom: 20px;
+}
+
+/* Estilos para la imagen */
+.imagen {
+    flex: 1;
+    text-align: center;
+}
+
+.imagen img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Estilos del footer */
+#footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
