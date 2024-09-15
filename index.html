@@ -1,29 +1,50 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Acerca de Nosotros</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>systech</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
 </head>
-<body><!-- Header -->
+
+<body>
+    <!-- Header -->
     <header id="header">
         <h1>Bienvenidos a CitasTEC</h1>
     </header>
 
     <!-- Parte principal de la Página Main -->
     <main id="main">
+        <!-- Banner -->
+        <section id="contenedor-banner">
+            <img id="banner-img"src="/images/image.jpg" alt="imagen_equipo">
+            <div id="banner-mensaje">
+                <h1>SYSTECH (imagen del equipo)</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat in error quod praesentium unde.</p>
+            </div>
+        </section>
+
+
         <!-- Sección Acerca de Nosotros -->
         <section id="acerca-de-nosotros">
             <h2>Acerca de Nosotros</h2>
             <div class="contenido">
                 <div class="texto">
                     <h3>Misión</h3>
-                    <p>Nuestra misión es ofrecer soluciones tecnológicas innovadoras y de calidad que mejoren la vida de nuestros clientes y contribuyan al desarrollo tecnológico global.</p>
-                    
+                    <p>
+                        Nuestra misión es ofrecer soluciones tecnológicas innovadoras y de
+                        calidad que mejoren la vida de nuestros clientes y contribuyan al
+                        desarrollo tecnológico global.
+                    </p>
+
                     <h3>Visión</h3>
-                    <p>Ser líderes en el sector tecnológico, reconocidos por nuestra innovación, servicio al cliente y compromiso con la sostenibilidad y el impacto social positivo.</p>
+                    <p>
+                        Ser líderes en el sector tecnológico, reconocidos por nuestra
+                        innovación, servicio al cliente y compromiso con la sostenibilidad
+                        y el impacto social positivo.
+                    </p>
 
                     <h3>Valores</h3>
                     <ul>
@@ -35,7 +56,7 @@
                     </ul>
                 </div>
                 <div class="imagen">
-                    <img src="images/Citas.jpg" alt="Representación de la empresa">
+                    <img src="images/Citas.jpg" alt="Representación de la empresa" />
                 </div>
             </div>
         </section>
@@ -43,7 +64,22 @@
 
     <!-- Footer -->
     <footer id="footer">
-        <p>&copy; 2024 Nuestra Empresa. Todos los derechos reservados.</p>
+        <h2>Contáctanos!</h2>
+        <div id="contenedor_footer">
+            <div id="a"></div>
+            <div id="contacto-form">
+                <label for="nombre">Nombre</label>
+                <input id="nombre" type="text" />
+                <label for="correo">Correo</label>
+                <input id="correo" type="text" />
+                <label for="telefono">Teléfono</label>
+                <input id="telefono" type="text" />
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje"></textarea>
+            </div>
+        </div>
+        <p>&copy; 2024 SYSTECH. Todos los derechos reservados.</p>
     </footer>
 </body>
+
 </html>

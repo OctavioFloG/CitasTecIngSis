@@ -7,6 +7,23 @@ body {
     color: #333;
 }
 
+input[type="text"] {
+    width: 100%;
+    border-radius: 5px;
+}
+
+html::-webkit-scrollbar {
+    width: 10px;
+    height: 8px;
+    background-color: #aaa;
+    /* or add it to the track */
+}
+
+/* scrollbar thumb */
+html::-webkit-scrollbar-thumb {
+    background: #007bff;
+}
+
 /* Estilos del header */
 #header {
     background-color: #007bff;
@@ -15,10 +32,38 @@ body {
     text-align: center;
 }
 
+/* Estilos para la seccion del banner */
+
+#contenedor-banner {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    color: #333;
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 0;
+}
+
+#banner-img {
+    opacity: 0.6;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 250px;
+}
+
+#banner-mensaje {
+    position: absolute;
+    margin-top: 100px;
+}
+
 /* Estilos para la sección Acerca de Nosotros */
 #acerca-de-nosotros {
     max-width: 1200px;
     margin: 40px auto;
+    margin-top: 0px;
     padding: 20px;
     background-color: white;
     border-radius: 10px;
@@ -51,7 +96,8 @@ body {
     margin-left: 20px;
 }
 
-.texto p, .texto ul {
+.texto p,
+.texto ul {
     margin-bottom: 20px;
 }
 
@@ -73,7 +119,39 @@ body {
     color: white;
     text-align: center;
     padding: 10px 0;
-    position: fixed;
+    position: bottom;
     width: 100%;
     bottom: 0;
+}
+
+#contenedor_footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+#contenedor_footer>div:first-child {
+    display: block;
+    width: 100%;
+    padding: 0 50px;
+}
+
+#contenedor_footer>div:last-child {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    width: 100%;
+    padding: 0 50px;
+    text-align: left;
+}
+
+textarea#mensaje {
+    height: 70;
+    width: 100%;
+    border-radius: 5px;
+}
+
+#contacto-form>label {
+    margin-top: 5px;
+    width: 100%;
 }
