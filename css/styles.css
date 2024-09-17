@@ -155,3 +155,18 @@ textarea#mensaje {
     margin-top: 5px;
     width: 100%;
 }
+
+/* Seccion de empleados */
+#empleados{
+    display: flex;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+#empleados > div > img{
+    max-width: 150px;
+    border-radius: 5px;
+}
