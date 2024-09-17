@@ -159,12 +159,24 @@ textarea#mensaje {
 
 /* Seccion de empleados */
 #empleados{
+    border-radius: 10px;
     display: flex;
     max-width: 1200px;
     margin: 40px auto;
     padding: 20px;
     align-items: center;
     text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#empleados > div{
+    background-color: #aaaaaa47;
+    border-radius: 10px;
+    width: 20%;
+    padding: 10px 0;
 }
 
 .imagen-empleado{
@@ -215,7 +227,11 @@ textarea#mensaje {
     padding: 20px;
     align-items: center;
     text-align: center;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 #areas-empresa .area-contenedor{
