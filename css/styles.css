@@ -26,8 +26,8 @@ html::-webkit-scrollbar-thumb {
 
 /* Estilos del header */
 #header {
-    background-color: #007bff;
-    color: white;
+    background-color: #333;
+    color: #fff;
     padding: 20px;
     text-align: center;
 }
@@ -171,28 +171,35 @@ textarea#mensaje {
     border-radius: 5px;
 }
 
-/* Seccion de areas de la empresa */
-#areas-empresa{
-    display: flex;
-    max-width: 1200px;
-    margin: 40px auto;
-    padding: 20px;
-    align-items: center;
+/* Sección de Proyectos */
+#proyectos {
+    background-color: #fff;
+    padding: 40px 20px;
     text-align: center;
-    justify-content: space-between;
 }
 
-#areas-empresa .area-contenedor{
-    position: relative;
-    width: 30%;
+#proyectos h2 {
+    font-size: 2.5rem;
+    color: #0b6bfc;
+    margin-bottom: 20px;
 }
 
-#areas-empresa > div .contacto{
-    display: block;
-    width: auto;
-    height: auto;
-    background-color: #33333350;
-    background-size: auto;
+.proyecto {
+    background-color: #f8f8f8;
+    margin: 20px 0;
+    padding: 20px;
     border-radius: 10px;
-
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+.proyecto h3 {
+    font-size: 1.8rem;
+    color: #0b6bfc;
+    margin-bottom: 10px;
+}
+
+.proyecto p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
