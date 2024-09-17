@@ -203,3 +203,28 @@ textarea#mensaje {
     color: #555;
 }
 
+/* Seccion de areas de la empresa */
+#areas-empresa{
+    display: flex;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+#areas-empresa .area-contenedor{
+    position: relative;
+    width: 30%;
+}
+
+#areas-empresa > div .contacto{
+    display: block;
+    width: auto;
+    height: auto;
+    background-color: #33333350;
+    background-size: auto;
+    border-radius: 10px;
+
+}
