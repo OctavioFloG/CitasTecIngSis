@@ -48,6 +48,7 @@ html::-webkit-scrollbar-thumb {
 #banner-img {
     opacity: 0.6;
     position: absolute;
+    border-radius: 10px;
     width: 100%;
     top: 0;
     left: 0;
