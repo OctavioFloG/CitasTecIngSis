@@ -166,7 +166,7 @@ textarea#mensaje {
     text-align: center;
 }
 
-#empleados > div > img{
+.imagen-empleado{
     max-width: 150px;
     border-radius: 5px;
 }
