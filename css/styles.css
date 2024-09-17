@@ -173,9 +173,12 @@ textarea#mensaje {
 
 /* Sección de Proyectos */
 #proyectos {
+    max-width: 1200px;
+    margin: 40px auto;
     background-color: #fff;
     padding: 40px 20px;
     text-align: center;
+    border-radius: 10px;
 }
 
 #proyectos h2 {
@@ -226,5 +229,5 @@ textarea#mensaje {
     background-color: #33333350;
     background-size: auto;
     border-radius: 10px;
-
 }
+
