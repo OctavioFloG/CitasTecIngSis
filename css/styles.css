@@ -48,6 +48,7 @@ html::-webkit-scrollbar-thumb {
 #banner-img {
     opacity: 0.6;
     position: absolute;
+    border-radius: 10px;
     width: 100%;
     top: 0;
     left: 0;
@@ -158,12 +159,24 @@ textarea#mensaje {
 
 /* Seccion de empleados */
 #empleados{
+    border-radius: 10px;
     display: flex;
     max-width: 1200px;
     margin: 40px auto;
     padding: 20px;
     align-items: center;
     text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#empleados > div{
+    background-color: #aaaaaa47;
+    border-radius: 10px;
+    width: 20%;
+    padding: 10px 0;
 }
 
 .imagen-empleado{
@@ -173,9 +186,12 @@ textarea#mensaje {
 
 /* Sección de Proyectos */
 #proyectos {
+    max-width: 1200px;
+    margin: 40px auto;
     background-color: #fff;
     padding: 40px 20px;
     text-align: center;
+    border-radius: 10px;
 }
 
 #proyectos h2 {
@@ -201,5 +217,34 @@ textarea#mensaje {
 .proyecto p {
     font-size: 1.2rem;
     color: #555;
+}
+
+/* Seccion de areas de la empresa */
+#areas-empresa{
+    display: flex;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#areas-empresa .area-contenedor{
+    position: relative;
+    width: 30%;
+}
+
+#areas-empresa > div .contacto{
+    display: block;
+    width: auto;
+    height: auto;
+    background-color: #33333350;
+    background-size: auto;
+    border-radius: 10px;
 }
 
