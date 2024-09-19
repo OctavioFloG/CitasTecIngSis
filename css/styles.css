@@ -60,6 +60,18 @@ html::-webkit-scrollbar-thumb {
     margin-top: 100px;
 }
 
+@media (max-width: 1120px) {
+    #banner-mensaje {
+        margin-top: 80px;
+    }
+}
+
+@media (max-width: 768px) {
+    #banner-mensaje {
+        margin-top: 40px;
+    }
+}
+
 /* Estilos para la sección Acerca de Nosotros */
 #acerca-de-nosotros {
     max-width: 1200px;
@@ -114,6 +126,125 @@ html::-webkit-scrollbar-thumb {
     border-radius: 10px;
 }
 
+/* Seccion de empleados */
+
+#empleados {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    align-items: start;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#empleados>div {
+    background-color: #aaaaaa47;
+    border-radius: 10px;
+    width: 20%;
+    height: 100%;
+    padding: 10px 0;
+}
+
+.imagen-empleado {
+    max-width: 150px;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    #empleados {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #empleados>div {
+        width: 90%;
+        margin: 10px 0;
+        padding: 10px 10px;
+    }
+}
+
+/* Seccion de areas de la empresa */
+#areas-empresa {
+    display: flex;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#areas-empresa .area-contenedor {
+    position: relative;
+    width: 30%;
+}
+
+#areas-empresa>div .contacto {
+    display: block;
+    width: auto;
+    height: auto;
+    padding: 0 10px;
+    background-color: #33333350;
+    background-size: auto;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    #areas-empresa {
+        flex-direction: column;
+    }
+
+    #areas-empresa .area-contenedor {
+        width: 90%;
+    }
+
+}
+
+/* Sección de Proyectos */
+#proyectos {
+    max-width: 1200px;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#proyectos h2 {
+    font-size: 2.5rem;
+    color: #0b6bfc;
+    margin-bottom: 20px;
+}
+
+.proyecto {
+    background-color: #f8f8f8;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.proyecto h3 {
+    font-size: 1.8rem;
+    color: #0b6bfc;
+    margin-bottom: 10px;
+}
+
+.proyecto p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
 /* Estilos del footer */
 #footer {
     background-color: #333;
@@ -156,95 +287,3 @@ textarea#mensaje {
     margin-top: 5px;
     width: 100%;
 }
-
-/* Seccion de empleados */
-#empleados{
-    border-radius: 10px;
-    display: flex;
-    max-width: 1200px;
-    margin: 40px auto;
-    padding: 20px;
-    align-items: center;
-    text-align: center;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    background-color: white;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-#empleados > div{
-    background-color: #aaaaaa47;
-    border-radius: 10px;
-    width: 20%;
-    padding: 10px 0;
-}
-
-.imagen-empleado{
-    max-width: 150px;
-    border-radius: 5px;
-}
-
-/* Sección de Proyectos */
-#proyectos {
-    max-width: 1200px;
-    margin: 40px auto;
-    background-color: #fff;
-    padding: 40px 20px;
-    text-align: center;
-    border-radius: 10px;
-}
-
-#proyectos h2 {
-    font-size: 2.5rem;
-    color: #0b6bfc;
-    margin-bottom: 20px;
-}
-
-.proyecto {
-    background-color: #f8f8f8;
-    margin: 20px 0;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.proyecto h3 {
-    font-size: 1.8rem;
-    color: #0b6bfc;
-    margin-bottom: 10px;
-}
-
-.proyecto p {
-    font-size: 1.2rem;
-    color: #555;
-}
-
-/* Seccion de areas de la empresa */
-#areas-empresa{
-    display: flex;
-    max-width: 1200px;
-    margin: 40px auto;
-    padding: 20px;
-    align-items: center;
-    text-align: center;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-#areas-empresa .area-contenedor{
-    position: relative;
-    width: 30%;
-}
-
-#areas-empresa > div .contacto{
-    display: block;
-    width: auto;
-    height: auto;
-    background-color: #33333350;
-    background-size: auto;
-    border-radius: 10px;
-}
-
